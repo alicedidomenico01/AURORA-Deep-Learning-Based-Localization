@@ -150,6 +150,20 @@ The full paper describing AURORA will be available in this repository.
 
 ---
 
+
+## 📚 References
+
+This work builds upon several established methods in multi-modal odometry and deep learning:
+
+- **A2DO**: Adaptive anti-degradation odometry with deep multi-sensor fusion for autonomous navigation  
+- **4DRVO-NET**:Deep 4d radar–visual odometry using multi-modal and multi-scale adaptive fusion  
+- **ResNet**: Deep residual networks for visual feature extraction  
+
+We acknowledge these foundational works as key contributions to the development of the proposed AURORA framework.
+
+---
+
+
 ## 📌 Notes
 
 This repository focuses on research reproducibility and clean implementation of multi-modal sensor fusion for robust localization under environmental degradation.
