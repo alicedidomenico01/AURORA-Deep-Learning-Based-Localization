@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log e temporanei
+*.log
+*.tmp
+
+# Output del tuo progetto
+output/
+*.npz
+
+# Slurm (se sono output/log)
+*.out
+*.err
