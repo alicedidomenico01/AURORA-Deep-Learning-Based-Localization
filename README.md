@@ -110,14 +110,36 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/alicedidomenico01/AURORA-Adaptive-Uncertainty-Aware-Robust-4D-Radar-Fusion-For-All-Weather-Multi-modal-Localization.git
-cd AURORA
+cd AURORA-Adaptive-Uncertainty-Aware-Robust-4D-Radar-Fusion-For-All-Weather-Multi-modal-Localization
 ```
 
-Install dependencies:
+Install the main Python dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+### PyTorch and GPU support
+
+This project was developed and tested using PyTorch with CUDA 11.8:
+
+```bash
+pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+```
+
+Other configurations may work, but have not been explicitly validated.
+
+### Additional dependencies
+
+Some components of the radar encoder rely on custom PointNet++ operators.
+Their installation may require manual compilation depending on the system configuration (CUDA, compiler, and PyTorch version).
+
+For reference, the implementation is based on:
+
+https://github.com/erikwijmans/Pointnet2_PyTorch
+
+> ⚠️ Note: Installation of custom CUDA operators may require a compatible GPU environment and is not strictly necessary for understanding the core structure of the framework.
+
 
 ---
 
