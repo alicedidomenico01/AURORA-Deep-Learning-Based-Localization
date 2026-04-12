@@ -65,8 +65,6 @@ Environment-aware modulation reduces:
 
 ### Comparison with A2DO
 
-### Comparison with A2DO
-
 <p align="center">
   <img src="results/figures/a2do_1.png" width="30%">
   <img src="results/figures/a2do_2.png" width="30%">
