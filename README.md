@@ -63,12 +63,28 @@ Environment-aware modulation reduces:
   <img src="results/figures/trajectory_3.png" width="30%">
 </p>
 
+<p align="center">
+  Trajectories estimation across different scenarios.
+</p>
+
 ### Comparison with A2DO
+
+The proposed AURORA framework outperforms the A2DO baseline across all key odometry metrics.
+
+- **ATE (Absolute Trajectory Error):** reduced from 4.28 m to 2.04 m (**52.3% improvement**)  
+- **RPE (translational):** reduced from 0.299 m/m to 0.174 m/m (**41.8% improvement**)  
+- **RPE (rotational):** reduced from 0.144 deg/m to 0.044 deg/m (**61.4% improvement**)  
+
+These results highlight the effectiveness of modeling sensor reliability as a **continuous probabilistic process**, rather than relying on implicit or quasi-discrete attention-based fusion strategies.
 
 <p align="center">
   <img src="results/figures/a2do_1.png" width="30%">
   <img src="results/figures/a2do_2.png" width="30%">
   <img src="results/figures/a2do_3.png" width="30%">
+</p>
+
+<p align="center">
+  Qualitative comparison between A2DO and AURORA across representative sequences.
 </p>
 
 ---
