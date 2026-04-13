@@ -1,0 +1,68 @@
+{
+  "imu_only": {
+    "00": { "ATE3D_sim3_aligned_rmse_m": 7.53093636228701 },
+    "01": { "ATE3D_sim3_aligned_rmse_m": 4.6023938933637565 },
+    "02": { "ATE3D_sim3_aligned_rmse_m": 7.339695001991747 },
+    "03": { "ATE3D_sim3_aligned_rmse_m": 4.461049927895163 },
+    "04": { "ATE3D_sim3_aligned_rmse_m": 4.356935888010472 },
+    "05": { "ATE3D_sim3_aligned_rmse_m": 2.4018089823095345 },
+    "06": { "ATE3D_sim3_aligned_rmse_m": 3.8191727243375473 },
+    "07": { "ATE3D_sim3_aligned_rmse_m": 3.3339160498529736 },
+    "08": { "ATE3D_sim3_aligned_rmse_m": 3.2264995990201175 },
+    "09": { "ATE3D_sim3_aligned_rmse_m": 1.6778468951423458 },
+    "10": { "ATE3D_sim3_aligned_rmse_m": 1.8002760341519897 },
+    "11": { "ATE3D_sim3_aligned_rmse_m": 2.3306604203427725 },
+    "12": { "ATE3D_sim3_aligned_rmse_m": 1.5544505156131505 },
+    "13": { "ATE3D_sim3_aligned_rmse_m": 15.577155856206696 },
+    "15": { "ATE3D_sim3_aligned_rmse_m": 23.9295810198759 },
+    "16": { "ATE3D_sim3_aligned_rmse_m": 10.036038147931052 },
+    "20": { "ATE3D_sim3_aligned_rmse_m": 48.84298651223558 },
+    "_split_summary": {
+      "mean_ATE3D_sim3_aligned_rmse_m": 8.636553166503989
+    }
+  },
+  "radar_camera": {
+    "00": { "ATE3D_sim3_aligned_rmse_m": 5.822673513832403 },
+    "01": { "ATE3D_sim3_aligned_rmse_m": 2.722274316248881 },
+    "02": { "ATE3D_sim3_aligned_rmse_m": 5.94092036257082 },
+    "03": { "ATE3D_sim3_aligned_rmse_m": 1.6537158819711564 },
+    "04": { "ATE3D_sim3_aligned_rmse_m": 0.9853901547101755 },
+    "05": { "ATE3D_sim3_aligned_rmse_m": 0.2671555261967094 },
+    "06": { "ATE3D_sim3_aligned_rmse_m": 1.6152838781496979 },
+    "07": { "ATE3D_sim3_aligned_rmse_m": 0.8583792870138964 },
+    "08": { "ATE3D_sim3_aligned_rmse_m": 2.8563046211416743 },
+    "09": { "ATE3D_sim3_aligned_rmse_m": 1.103178942381298 },
+    "10": { "ATE3D_sim3_aligned_rmse_m": 0.5370816277009968 },
+    "11": { "ATE3D_sim3_aligned_rmse_m": 0.7333514461687507 },
+    "12": { "ATE3D_sim3_aligned_rmse_m": 0.8580217690773759 },
+    "13": { "ATE3D_sim3_aligned_rmse_m": 2.7358148437558593 },
+    "15": { "ATE3D_sim3_aligned_rmse_m": 13.372241206238739 },
+    "16": { "ATE3D_sim3_aligned_rmse_m": 3.0478797365361938 },
+    "20": { "ATE3D_sim3_aligned_rmse_m": 4.526500072376089 },
+    "_split_summary": {
+      "mean_ATE3D_sim3_aligned_rmse_m": 2.921132136975951
+    }
+  },
+  "full_model": {
+    "00": { "ATE3D_sim3_aligned_rmse_m": 5.682247879784951 },
+    "01": { "ATE3D_sim3_aligned_rmse_m": 3.2301719233055324 },
+    "02": { "ATE3D_sim3_aligned_rmse_m": 3.8475003745563173 },
+    "03": { "ATE3D_sim3_aligned_rmse_m": 1.9407766211186328 },
+    "04": { "ATE3D_sim3_aligned_rmse_m": 1.0702704460520658 },
+    "05": { "ATE3D_sim3_aligned_rmse_m": 0.3468446596971925 },
+    "06": { "ATE3D_sim3_aligned_rmse_m": 1.0903122040109932 },
+    "07": { "ATE3D_sim3_aligned_rmse_m": 0.7059048180115826 },
+    "08": { "ATE3D_sim3_aligned_rmse_m": 1.1367736673951548 },
+    "09": { "ATE3D_sim3_aligned_rmse_m": 0.7696128194179863 },
+    "10": { "ATE3D_sim3_aligned_rmse_m": 0.3111130890571955 },
+    "11": { "ATE3D_sim3_aligned_rmse_m": 0.7012546515208106 },
+    "12": { "ATE3D_sim3_aligned_rmse_m": 0.5091239768865312 },
+    "13": { "ATE3D_sim3_aligned_rmse_m": 1.8838985653052886 },
+    "15": { "ATE3D_sim3_aligned_rmse_m": 6.935623093197748 },
+    "16": { "ATE3D_sim3_aligned_rmse_m": 1.494229595461253 },
+    "20": { "ATE3D_sim3_aligned_rmse_m": 5.390405149206177 },
+    "_split_summary": {
+      "mean_ATE3D_sim3_aligned_rmse_m": 2.179136682618086
+    }
+  }
+}

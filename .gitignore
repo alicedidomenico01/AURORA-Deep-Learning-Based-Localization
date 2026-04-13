@@ -30,4 +30,6 @@ output/
 
 # Slurm (se sono output/log)
 *.out
-*.err
+*.err# model checkpoints
+*.pt
+results/**/*.pt

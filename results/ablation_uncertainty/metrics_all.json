@@ -1,0 +1,94 @@
+{
+  "00": {
+    "ATE3D_sim3_aligned_rmse_m": 5.682247879784951,
+    "whole_seq_trans_drift_pct": 14.720718330400198,
+    "whole_seq_rot_drift_deg_per_m": 0.05805221168889687
+  },
+  "01": {
+    "ATE3D_sim3_aligned_rmse_m": 3.2301719233055324,
+    "whole_seq_trans_drift_pct": 17.84211490963081,
+    "whole_seq_rot_drift_deg_per_m": 0.01787706354782954
+  },
+  "02": {
+    "ATE3D_sim3_aligned_rmse_m": 3.847548343355072,
+    "whole_seq_trans_drift_pct": 14.061582088969113,
+    "whole_seq_rot_drift_deg_per_m": 0.0794262991739359
+  },
+  "03": {
+    "ATE3D_sim3_aligned_rmse_m": 1.9407766211186328,
+    "whole_seq_trans_drift_pct": 23.19888750837162,
+    "whole_seq_rot_drift_deg_per_m": 0.0686898572799592
+  },
+  "04": {
+    "ATE3D_sim3_aligned_rmse_m": 1.0702704460520658,
+    "whole_seq_trans_drift_pct": 6.913952992640235,
+    "whole_seq_rot_drift_deg_per_m": 0.11569117647833098
+  },
+  "05": {
+    "ATE3D_sim3_aligned_rmse_m": 0.3460980371657676,
+    "whole_seq_trans_drift_pct": 23.52332830398135,
+    "whole_seq_rot_drift_deg_per_m": 0.1852000845941909
+  },
+  "06": {
+    "ATE3D_sim3_aligned_rmse_m": 1.090211729362787,
+    "whole_seq_trans_drift_pct": 9.394885340835724,
+    "whole_seq_rot_drift_deg_per_m": 0.015611129426109599
+  },
+  "07": {
+    "ATE3D_sim3_aligned_rmse_m": 0.7058096384670405,
+    "whole_seq_trans_drift_pct": 16.403572974433228,
+    "whole_seq_rot_drift_deg_per_m": 0.020299360813614078
+  },
+  "08": {
+    "ATE3D_sim3_aligned_rmse_m": 1.13646429294119,
+    "whole_seq_trans_drift_pct": 2.2896567322967467,
+    "whole_seq_rot_drift_deg_per_m": 0.054376563236884196
+  },
+  "09": {
+    "ATE3D_sim3_aligned_rmse_m": 0.7694980371892771,
+    "whole_seq_trans_drift_pct": 15.85781613468912,
+    "whole_seq_rot_drift_deg_per_m": 0.4245211344257447
+  },
+  "10": {
+    "ATE3D_sim3_aligned_rmse_m": 0.31169202134108764,
+    "whole_seq_trans_drift_pct": 6.630463268503271,
+    "whole_seq_rot_drift_deg_per_m": 0.0561177590195563
+  },
+  "11": {
+    "ATE3D_sim3_aligned_rmse_m": 0.7012547258057403,
+    "whole_seq_trans_drift_pct": 11.327853289401618,
+    "whole_seq_rot_drift_deg_per_m": 0.4992189846180815
+  },
+  "12": {
+    "ATE3D_sim3_aligned_rmse_m": 0.5091239768865312,
+    "whole_seq_trans_drift_pct": 16.140723716055856,
+    "whole_seq_rot_drift_deg_per_m": 0.2727480309091668
+  },
+  "13": {
+    "ATE3D_sim3_aligned_rmse_m": 1.8838983151246071,
+    "whole_seq_trans_drift_pct": 20.21306413876794,
+    "whole_seq_rot_drift_deg_per_m": 0.04535372695925628
+  },
+  "15": {
+    "ATE3D_sim3_aligned_rmse_m": 6.935623123600267,
+    "whole_seq_trans_drift_pct": 33.14915538211694,
+    "whole_seq_rot_drift_deg_per_m": 0.06087153700174935
+  },
+  "16": {
+    "ATE3D_sim3_aligned_rmse_m": 1.4942290446328321,
+    "whole_seq_trans_drift_pct": 28.226578164887826,
+    "whole_seq_rot_drift_deg_per_m": 0.014031953951956434
+  },
+  "20": {
+    "ATE3D_sim3_aligned_rmse_m": 5.390405448374073,
+    "whole_seq_trans_drift_pct": 18.06663138695801,
+    "whole_seq_rot_drift_deg_per_m": 0.008562282149006931
+  },
+  "_split_summary": {
+    "mean_ATE3D_sim3_aligned_rmse_m": 2.179136682618086,
+    "whole_seq_trans_drift_pct_weighted_mean": 18.82133882172644,
+    "whole_seq_rot_drift_deg_per_m_weighted_mean": 0.05703360291404433,
+    "whole_seq_trans_drift_pct_simple_mean": 16.350646156643506,
+    "whole_seq_rot_drift_deg_per_m_simple_mean": 0.11744995031025116
+  }
+}
