@@ -95,11 +95,22 @@ These results highlight the effectiveness of modeling sensor reliability as a **
 AURORA/
 ├── README.md
 ├── .gitignore
+├── requirements.txt
+├── LICENSE
+│
 ├── src/
+│   ├── backbones/
+│   ├── encoders/
+│   ├── fusion/
+│   ├── dataloaders/
+│   ├── models/
+│   └── utils/
+│
+├── scripts/
+│
 ├── results/
-│   └── figures/
-├── configs/
-└── scripts/
+│
+└── docs/ 
 ```
 
 ---
@@ -109,8 +120,8 @@ AURORA/
 Clone the repository:
 
 ```bash
-git clone https://github.com/alicedidomenico01/AURORA-Adaptive-Uncertainty-Aware-Robust-4D-Radar-Fusion-For-All-Weather-Multi-modal-Localization.git
-cd AURORA-Adaptive-Uncertainty-Aware-Robust-4D-Radar-Fusion-For-All-Weather-Multi-modal-Localization
+git clone https://github.com/alicedidomenico01/AURORA-Deep-Learning-Based-Localization.git
+cd AURORA-Deep-Learning-Based-Localization
 ```
 
 Install the main Python dependencies:
