@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, Subset
 
 # IMPORT dal dataloader versione IMU-step (nuovo file)
-from imu_data_imustep_quat_localpatch import make_loaders_quat_localpatch, pad_collate_quat_localpatch
+from src.models.imu_data_imustep_quat_localpatch import make_loaders_quat_localpatch, pad_collate_quat_localpatch
 
 # ============================
 # Hyperparam (come prima)
@@ -419,7 +419,7 @@ def evaluate_split_per_scene_se3patch(seqs, checkpoint, output_root, split="val"
     import numpy as np
     import torch, os, json
     from torch.utils.data import DataLoader, Subset
-    from imu_data_imustep_quat_localpatch import (
+    from src.models.imu_data_imustep_quat_localpatch import (
         MultiSeqIMUStepsQuatLocalPatch, pad_collate_quat_localpatch
     )
 

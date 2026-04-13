@@ -11,18 +11,18 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, Subset
-from fusion_spatial_a2do_v2 import A2DOHierarchicalFilter2Modalities
+from src.fusion.fusion_spatial_a2do_v2 import A2DOHierarchicalFilter2Modalities
 
-from radar4d_cam_pose_dataloader_raw import SEQ_META
+from src.dataloaders.radar4d_cam_pose_dataloader_raw import SEQ_META
 
-from radar4d_cam_pose_dataloader_raw import SeqConfigCam, Radar4DPlusCamDatasetPairsRAW
-from radar4d_cam_pose_dataloader_raw_batched import make_loaders_radar_cam_pose_raw_batched
+from src.dataloaders.radar4d_cam_pose_dataloader_raw import SeqConfigCam, Radar4DPlusCamDatasetPairsRAW
+from src.dataloaders.radar4d_cam_pose_dataloader_raw_batched import make_loaders_radar_cam_pose_raw_batched
 
-from arcfm_monoscale import AdaptiveRadarCameraFusionMono
+from src.fusion.arcfm_monoscale import AdaptiveRadarCameraFusionMono
 
-from weather_scalar_logger import WeatherScalarLogger
+from src.utils.weather_scalar_logger import WeatherScalarLogger
 
-from radar4d_cam_imu_pose_dataloader_raw_batched import (
+from src.dataloaders.radar4d_cam_imu_pose_dataloader_raw_batched import (
     make_loaders_radar_cam_imu_pose_raw_batched,
     SeqConfigCamImu,
     pad_collate_radar_cam_imu_raw_batched,
@@ -40,17 +40,17 @@ if '/mnt/data' not in sys.path:
     sys.path.append('/mnt/data')
 
 
-from radar4d_pose_dataloader_raw import (
+from src.dataloaders.radar4d_pose_dataloader_raw import (
     SeqConfig, make_loaders_radar_pose_raw, pad_collate_radar_raw
 )
 
-from radar4d_pose_dataloader_raw_batched import (
+from src.dataloaders.radar4d_pose_dataloader_raw_batched import (
     make_loaders_radar_pose_raw_batched, pad_collate_radar_raw_batched
 )
 
 # ===== encoder PN++ invariato =====
-from radar4d_encoder_pn2 import Radar4DEncoderPN2, as_BCN, as_BNC
-from camera_backbone_resnet18 import ImageBackboneResNet18
+from src.encoders.radar4d_encoder_pn2 import Radar4DEncoderPN2, as_BCN, as_BNC
+from src.backbones.camera_backbone_resnet18 import ImageBackboneResNet18
 
 # ============================
 # Hyperparam di default (identici ai tuoi)

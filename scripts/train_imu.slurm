@@ -42,11 +42,13 @@ mkdir -p "$OUTPUT_ROOT"
 
 cd "$PROJECT_DIR"
 
+export PYTHONPATH=$PROJECT_DIR:$PYTHONPATH
+
 
 
 
 # ---------- 5) Lancia training ----------
-python imu_seq2seq_lstm_radarstep_twohead_quat_adaloss_rmse_se3patch_inmodelenc_batched.py \
+python src/models/imu_seq2seq_lstm_radarstep_twohead_quat_adaloss_rmse_se3patch_inmodelenc_batched.py \
   --mode eval \
   --seqs "00,01,02,03,04,05,06,07,08,09,10,11,12,13,15,16,20" \
   --root_dir "$ROOT_DIR" \

@@ -8,8 +8,8 @@ Collate/loader per Radar+Camera:
 - K e T_cam_from_imu per pair
 
 API:
-  from radar4d_cam_pose_dataloader_raw import SeqConfigCam
-  from radar4d_cam_pose_dataloader_raw_batched import make_loaders_radar_cam_pose_raw_batched
+  from src.dataloaders.radar4d_cam_pose_dataloader_raw import SeqConfigCam
+  from src.dataloaders.radar4d_cam_pose_dataloader_raw_batched import make_loaders_radar_cam_pose_raw_batched
 """
 
 import numpy as np
@@ -17,7 +17,7 @@ import torch
 from torch.utils.data import DataLoader, Subset
 from typing import List, Tuple, Dict
 
-from radar4d_cam_pose_dataloader_raw import (
+from src.dataloaders.radar4d_cam_pose_dataloader_raw import (
     Radar4DPlusCamDatasetPairsRAW, SeqConfigCam
 )
 

@@ -14,7 +14,7 @@ from typing import Dict, List
 
 
 # importa la nuova definizione con calib_dir
-from radar4d_pose_dataloader_raw import Radar4DDatasetPairsRAW, SeqConfig
+from src.dataloaders.radar4d_pose_dataloader_raw import Radar4DDatasetPairsRAW, SeqConfig
 
 __all__ = ["pad_collate_radar_raw_batched", "make_loaders_radar_pose_raw_batched"]
 

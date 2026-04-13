@@ -18,17 +18,17 @@ from torch.utils.data import Dataset, DataLoader, Subset
 # IMPORT DATALOADER ESISTENTI
 # =========================
 
-from radar4d_cam_pose_dataloader_raw import (
+from src.dataloaders.radar4d_cam_pose_dataloader_raw import (
     SeqConfigCam,
     Radar4DPlusCamDatasetPairsRAW
 )
 
-from radar4d_cam_pose_dataloader_raw_batched import (
+from src.dataloaders.radar4d_cam_pose_dataloader_raw_batched import (
     pad_collate_radar_cam_raw_batched
 )
 
 
-from imu_data_imustep_quat_localpatch import load_imu_fixed_csv
+from src.models.imu_data_imustep_quat_localpatch import load_imu_fixed_csv
 
 
 # ============================================================
